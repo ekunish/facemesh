@@ -1,5 +1,33 @@
 .App {
   text-align: center;
+  position: relative;
+}
+
+.monitor {
+  position: relative;
+}
+
+#player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#output {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#cube {
+  position: relative;
+  margin-left: 500px;
+}
+
+#nyumon-sample1 {
+  position: absolute;
+  top: 480;
+  left: 640;
 }
 
 .App-logo {
